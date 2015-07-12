@@ -18,6 +18,7 @@ header {
 	-webkit-flex-direction: column;
 	-webkit-justify-content: center;
 	-webkit-align-items: center;
+	margin-bottom: 50px;
 }
 
 
@@ -53,6 +54,16 @@ header {
 	text-decoration: none;
 	width: 100%;
 	
+}
+
+/*-- FOOTER--*/
+
+footer {
+	clear: both;
+	max-width: 100%;
+	padding: 4em;
+	color: #FFF;
+	background-color: black;
 }
 
 
