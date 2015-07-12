@@ -2,6 +2,7 @@
 
 html, body {
 	width: 100%;
+	background-color: green;
 }
 
 h1 {
@@ -26,7 +27,8 @@ header {
 #content {
 	background-color: pink;
 	float: right;
-	width: 1140px;
+	width: 1125px;
+	padding: 2em;
 }
 
 /*-- SIDEBAR--*/
@@ -34,14 +36,25 @@ header {
 #sidebar {
 	background-color: beige;
 	float: left;
-	width: 300px;
+	width: 299px;
+	-webkit-align-items: center;
+}
+#sidebar .link {
+	background-color: purple;
+	width: 100%;
+	height: 100%;
 }
 #sidebar ul li {
 	list-style: none;
+	padding: 20px;
+	transition: all 1s ease-in-out; 
 }
 #sidebar ul li a {
 	text-decoration: none;
+	width: 100%;
+	
 }
+
 
 /*-- SPECIALS--*/
 
