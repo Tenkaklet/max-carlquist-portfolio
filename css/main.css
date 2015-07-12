@@ -1,6 +1,16 @@
 /* Main */
 
 h1 {
-	color: purple;
+	margin: 0;
+}
+
+header {
+	height: 765px;
+	background-color: purple;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	margin-bottom: 50px;
 }
 
