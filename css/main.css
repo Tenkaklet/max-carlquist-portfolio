@@ -1,3 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster|Raleway|Open+Sans:700,400);
+
+
+body {
+	background-color: #w3r98wef;
+	color: #000;
+}
+
+
 
 /*--- HEADER---*/
 
@@ -12,6 +21,7 @@
 	height: 200px;
 	background-size: cover;
 	background-repeat: no-repeat;
+	box-shadow: 0 3px 3px #999;
 }
 /*--- NAVIGATION---*/
 
@@ -39,17 +49,32 @@
 }
 .welcome h1 {
 	color: #FFF;
+	font-family: 'Lobster', cursive;
 	font-size: 3em;
 }
 .welcome-top {
 	color: #fff;
 	clear: both;
 	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
 }
 
 
+/*--- CONTENT---*/
 
-
+.content {
+	margin: 0 auto;
+	padding: 3em;
+}
+.image {
+	text-align: center;
+}
+.image img {
+	border-radius: 20px;
+	max-width: 100%;
+	box-shadow: 0 3px 3px #999;
+}
 /*---SPECAIALS--*/
 .container {
 	margin: 0 auto;
@@ -58,6 +83,55 @@
 	padding: 0 15px;
 
 }
+
+/*--- INTRODUCTION---*/
+
+
+.left {
+	float: left;
+	width: 50%;
+	padding: 2em;
+}
+section h2 span {
+	border-bottom: 1px solid #000;
+}
+.right {
+	float: right;
+	padding: 2em;
+	width: 50%;
+}
+.clear {
+	clear: both;
+}
+
+.more {
+	max-width: 79%;
+	margin: 0 auto;
+}
+.more h2 {
+	text-align: center;
+}
+.center-text {
+	margin: 0 auto;
+	width: 38em;
+	padding: 10px;
+}
+.center-text p {
+	margin-top: -10px;
+}
+
+/*--- PORTFOLIO---*/
+
+
+
+/*--- FOOTER---*/
+footer {
+	background-color: #000;
+	padding: 0.3em 2em;
+	text-align: center;
+}
+
+
 
 /*---MEDIA QUERIES--*/
 
