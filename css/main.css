@@ -38,6 +38,10 @@ body {
 .top-nav ul li a {
 	color: #FFF;
 	text-decoration: none;
+	transition: all 0.1s ease-in;
+}
+.top-nav ul li a:hover {
+	color: #2ECC71;
 }
 
 /*--- WELCOME---*/
@@ -106,7 +110,7 @@ section h2 span {
 }
 
 .more {
-	max-width: 79%;
+	width: 79%;
 	margin: 0 auto;
 }
 .more h2 {
@@ -137,7 +141,19 @@ footer {
 	bottom: 0;
 	width: 100%;
 }
-
+.social li {
+	display: inline-block;
+	list-style: none;
+}
+.social li a {
+	font-size: 40px;
+	margin-right: 15px;
+	color: #FFF;
+	transition: all 0.1s ease-in-out;
+}
+.social li a:hover {
+	color: #000;
+}
 
 
 /*---MEDIA QUERIES--*/
@@ -145,6 +161,19 @@ footer {
 @media only screen and (max-width: 500px) {
 	.welcome h1 {
 		font-size: 2.3em;
+	}
+	.top-nav {
+		margin-left: 1.4em;
+	}
+	.left {
+		width: 100%;
+	}
+	.right {
+		width: 100%;
+	}
+	.more {
+		width: 100%;
+		margin: 0 auto;
 	}
 }
 
