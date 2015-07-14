@@ -158,13 +158,15 @@ footer {
 
 /*---MEDIA QUERIES--*/
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
 	.top-nav ul li a {
 		margin: 0 auto;
 		width: 100%;
 		font-size: 30px;
 		text-align: center;
-		color: green;
+	}
+	.top-nav {
+		margin: 0;
 	}
 	.welcome h1 {
 		font-size: 2.3em;
@@ -174,13 +176,21 @@ footer {
 	}
 	.left {
 		width: 100%;
+		padding: 0;
 	}
 	.right {
 		width: 100%;
+		padding: 0;
 	}
-	.clear {
-		width: 100%;
+	
+	.more {
+		color: green;
+		clear: both;
 		margin: 0 auto;
+		text-align: center;
+	}
+	.content {
+		margin: 0;
 	}
 }
 
