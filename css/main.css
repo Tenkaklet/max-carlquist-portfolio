@@ -4,6 +4,7 @@
 body {
 	background-color: #2ECC71;
 	color: #000;
+	font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -18,7 +19,7 @@ body {
 }
 .top {
 	background-image: url(../img/header.jpg);
-	height: 200px;
+	height: 250px;
 	background-color: #2ECC71;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -109,20 +110,9 @@ section h2 span {
 	clear: both;
 }
 
-.more {
-	width: 30em;
-	margin: 0 auto;
-}
-.more h2 {
-	text-align: center;
-}
+
 .center-text {
-	margin: 0 auto;
-	width: 38em;
-	padding: 10px;
-}
-.center-text p {
-	margin-top: -10px;
+	text-align: center;
 }
 
 /*--- PORTFOLIO---*/
@@ -163,7 +153,6 @@ footer {
 		margin: 0 auto;
 		width: 100%;
 		font-size: 30px;
-		text-align: center;
 	}
 	.top-nav {
 		margin: 0;
@@ -184,13 +173,18 @@ footer {
 	}
 	
 	.more {
-		color: green;
 		clear: both;
 		margin: 0 auto;
-		text-align: center;
 	}
 	.content {
 		margin: 0;
+		padding: 1em;
+	}
+	.top-nav ul li {
+		width: 100%;
+	}
+	.top-nav ul li a {
+		margin: 20px;
 	}
 }
 
