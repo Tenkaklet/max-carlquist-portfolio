@@ -153,7 +153,7 @@ section h2 span {
 	margin-left: 20px;
 }
 #work ul li img {
-	width: 240px;
+	width: 400px;
 	height: 241px;
 	-webkit-filter: grayscale(100%);
 	transition: all 0.4s ease-in-out;
